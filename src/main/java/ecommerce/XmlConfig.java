@@ -1,4 +1,4 @@
-package ehandel;
+package ecommerce;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -13,5 +13,7 @@ public class XmlConfig {
 
 		//TODO: Create and initialize a context using xml configuration
 		ApplicationContext ctx = null; 
+		
+		OrderProcessingDemo.runDemo(ctx);
 	}
 }

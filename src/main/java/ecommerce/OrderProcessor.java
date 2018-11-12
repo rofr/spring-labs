@@ -1,4 +1,4 @@
-package ehandel;
+package ecommerce;
 
 public class OrderProcessor {
 

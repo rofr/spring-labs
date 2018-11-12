@@ -1,4 +1,4 @@
-package ehandel;
+package ecommerce;
 
 import java.util.HashMap;
 import java.util.Map;

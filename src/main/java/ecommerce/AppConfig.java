@@ -1,4 +1,4 @@
-package ehandel;
+package ecommerce;
 
 import org.springframework.context.ApplicationContext;
 

@@ -1,4 +1,4 @@
-package core;
+package ecommerce;
 
 import static org.junit.Assert.*;
 
@@ -10,10 +10,10 @@ import org.springframework.test.annotation.DirtiesContext.ClassMode;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import ehandel.FakeInventoryManager;
-import ehandel.FakeOrderRepository;
-import ehandel.OrderProcessor;
-import ehandel.ShoppingCart;
+import ecommerce.FakeInventoryManager;
+import ecommerce.FakeOrderRepository;
+import ecommerce.OrderProcessor;
+import ecommerce.ShoppingCart;
 
 public class OrderProcessorTests {
 	
